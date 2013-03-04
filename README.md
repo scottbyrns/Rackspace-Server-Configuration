@@ -6,7 +6,6 @@ To begin we will need to install GIT on our Debian server.
 ```
 # Update aptitude first
 sudo apt-get update
-
  
 # Install GIT
 sudo apt-get install git
@@ -25,49 +24,18 @@ cd Rackspace-Server-Configuration/
 chmod 755 *
 ```
 
-## Installing Setup Scripts
-### CI Utilities
-This mainly installs Maven but should be expanded to include other CI utilities for other languages and platforms.
-```
-# Install CI utilities
-./install-ci-utilities.sh
-```
 
-### Utilities to make the server easier to manage by people
-Mainly VIM. Needs an uninstall script so admins can clean up after maintenance.
-```
-# Install utilities to make things more human relatable.
-./install-human-utilities.sh
-```
+### Setup
+This script will setup Tomcat 6, Jenkins, Java 6, and Vim.
 
-### Sun Java 6
-You must update /etc/apt/sources.list to include non-free sources.
-```
-# Install Java
-# IMPORTANT: You must follow the instructions in this bash script before running it.
-# You must edit /etc/apt/sources.list to include non free sources.
-./install-sun-java.sh
-``` 
- 
-### Tomcat 6
-The application server that Jenkins will run in. Can be used for other internal web applications.
-```
-# Install Tomcat 6
-./install-tomcat6.sh
-```
+Jenkins will be configured to run on ports 83 and 8083.
+Tomcat will be configured to run on ports 80 and 8080.
 
-### Jenkins
-Jenkins is the CI server.
+Tomcat is preconfigured with a management account for Jenkins deployments.
+Username: jenkins
+Password: SLKDJFlkjsdf123
+
 ```
 # Install Jenkins
-./install-jenkins.sh
-```
-
-
-#Optional
-
-###MySQL
-```
-# Install MySQL
-./install-mysql.sh
+./install-java-enviornment.sh
 ```
