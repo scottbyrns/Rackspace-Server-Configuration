@@ -8,7 +8,7 @@ To begin we will need to install GIT on our Debian server.
 sudo apt-get update
  
 # Install GIT
-sudo apt-get install git
+sudo apt-get -y install git
 ```
 
 ## Obtaining Setup Scripts
