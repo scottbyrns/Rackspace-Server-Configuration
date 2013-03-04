@@ -1,5 +1,9 @@
 # Basic Configuration
-Our basic configuration will be done with a series of pre baked install scripts available on GitHub. These scripts will get us a fresh install of Jenkins that is configured and ready for CI.
+The following procedure is prepared for a fresh Debian 6 instance in the Rackspace cloud.
+This script will install Tomcat 6, Java 6, Jenkins, Maven 2, and vim.
+
+Tomcat will run on Ports 80 and 8080
+Jenkins will run on Ports 83 and 8083
 
 ## Prerequisites
 To begin we will need to install GIT on our Debian server.
