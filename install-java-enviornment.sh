@@ -14,6 +14,3 @@
 # Install Jenkins
 ./install-jenkins.sh
 ./configure-jenkins-for-alternative-port.sh
-
-# Install MySQL
-./install-mysql.sh
