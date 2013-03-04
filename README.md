@@ -62,3 +62,12 @@ Jenkins is the CI server.
 # Install Jenkins
 ./install-jenkins.sh
 ```
+
+
+#Optional
+
+###MySQL
+```
+# Install MySQL
+./install-mysql.sh
+```
