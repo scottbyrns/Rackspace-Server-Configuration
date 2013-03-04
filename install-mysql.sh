@@ -1,1 +1,1 @@
-apt-get install mysql-server
+apt-get -y install mysql-server

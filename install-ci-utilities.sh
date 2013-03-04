@@ -2,5 +2,5 @@
 # Install continuous integration utilities.
 #
 
-apt-get install maven2
+apt-get -y install maven2
 

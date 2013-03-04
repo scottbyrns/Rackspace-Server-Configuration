@@ -10,7 +10,7 @@
 
 sed -i 's/main/main non-free/g' /etc/apt/sources.list
 
-apt-get install sun-java6-jdk
+apt-get -y install sun-java6-jdk
 
 echo "JAVA_HOME=\"/usr/lib/jvm/java-6-sun\"" >> /etc/profile
 echo "export JAVA_HOME" >> /etc/profile

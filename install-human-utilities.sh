@@ -3,4 +3,4 @@
 # Installs utilties that make human management easier.
 #
 
-apt-get install vim
+apt-get -y install vim

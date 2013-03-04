@@ -9,7 +9,7 @@ wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key 
 echo "deb http://pkg.jenkins-ci.org/debian binary/" >> /etc/apt/sources.list
 
 apt-get update
-apt-get install jenkins
+apt-get -y install jenkins
 
 # Need to change port configuration in /etc/default/jenkins
 # Line 41 should read HTTP_PORT=8090
