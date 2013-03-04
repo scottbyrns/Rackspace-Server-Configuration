@@ -9,9 +9,11 @@
 
 # Install Tomcat 6
 ./install-tomcat6.sh
+./configure-tomcat6-default-users.sh
 
 # Install Jenkins
 ./install-jenkins.sh
+./configure-jenkins-for-alternative-port.sh
 
 # Install MySQL
 ./install-mysql.sh
