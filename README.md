@@ -19,7 +19,7 @@ sudo apt-get -y install git
 Next we will clone our CI setup scripts from GitHub.
 ```
 # Clone the sever configuration scripts from GitHub
-git clone https://github.com/UreaBurns/Rackspace-Server-Configuration.git
+git clone https://github.com/scottbyrns/Rackspace-Server-Configuration.git
   
 # Open your server configuration working copy
 cd Rackspace-Server-Configuration/
